@@ -1,0 +1,54 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+}
+*{
+  box-sizing: border-box;
+}
+
+.notes-container {
+  width: 600px;
+}
+
+.note{
+  width: 100%;
+  border: 1px solid #333;
+  border-radius: 15px;
+  padding: 20px 30px;
+  margin: 10px 0;
+}
+
+.add-button{
+  margin-bottom: 20px;
+}
+
+.input-notes {
+  width: 100%;
+  border-radius: 5px;
+  padding: 20px;
+}
+
+.note-headling{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  button {
+    padding: 5px;
+  }
+}
+
+.delete-msg{
+  position: fixed;
+  bottom: 5px;
+  left: 50%;
+  transform: translateX(-50%);
+  text-align: center;
+  border: 1px solid white;
+  background-color: rgb(160, 0, 0);
+  color: white;
+  font-weight: bold;
+  border-radius: 20px;
+  padding: 10px 25px;
+  transition: all .5s ease-out;
+}
